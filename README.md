@@ -37,13 +37,15 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Je opdracht:
   link naar de website die je gaat namaken óf de naam/omschrijving van je eigen ontwerp
+  
+  https://www.toogoodtogo.com/nl
 
   #### Screenshot(s) van de eerste pagina (small screen): 
-  hier de naam van de pagina  
+  hier de naam van de pagina: Homepagina  
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
 
   #### Screenshot(s) van de tweede pagina (small screen):
-  hier de naam van de pagina  
+  hier de naam van de pagina: Bedrijfpagina  
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
  
 </details>
@@ -57,6 +59,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen:
+
+  - Niet alle afbeeldingen werden voorgelezen.
+  - Je kon niet weten dat er een animated button zat om verder naar onder te gaan op de pagina.
+  - Het duurt erg lang voordat je door de pagina heen bent.
 
 </details>
 
