@@ -37,16 +37,17 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Je opdracht:
   link naar de website die je gaat namaken óf de naam/omschrijving van je eigen ontwerp
-  
-  https://www.toogoodtogo.com/nl
+
+  Too Good To Go
+  https://www.toogoodtogo.com/nl 
 
   #### Screenshot(s) van de eerste pagina (small screen): 
-  hier de naam van de pagina: Homepagina  
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+  Homepagina
+  <img src="readme-images/homepagina.png" width="375px" alt="homepagina">
 
   #### Screenshot(s) van de tweede pagina (small screen):
-  hier de naam van de pagina: Bedrijfpagina  
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+  Gebruikers pagina
+  <img src="readme-images/gebruikerspagina.png" width="375px" alt="gebruikerspagina">
  
 </details>
 
@@ -59,10 +60,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen:
-
-  - Niet alle afbeeldingen werden voorgelezen.
-  - Je kon niet weten dat er een animated button zat om verder naar onder te gaan op de pagina.
-  - Het duurt erg lang voordat je door de pagina heen bent.
+  
+  
 
 </details>
 
@@ -74,13 +73,14 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na afloop 3<sup>e</sup> werkgroep</summary>
 
   ### de hele pagina: 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
+  <img src="readme-images/breakdown.deel.1.png" width="375px" alt="breakdown van de hele pagina">
+  <img src="readme-images/breakdown.deel.2.png" width="375px" alt="breakdown van de hele pagina">
 
   ### dynamisch deel (bijv menu): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
+  <img src="readme-images/dynamisch.deel.1.png" width="375px" alt="breakdown van een dynamisch deel">
 
   ### wellicht nog een dynamisch deel (bijv filter): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
+  <img src="readme-images/breakdown.deel.2.png" width="375px" alt="breakdown van nog een dynamisch deel">
 
 </details>
 
