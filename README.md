@@ -80,7 +80,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <img src="readme-images/dynamisch.deel.1.png" width="375px" alt="breakdown van een dynamisch deel">
 
   ### wellicht nog een dynamisch deel (bijv filter): 
-  <img src="readme-images/breakdown.deel.2.png" width="375px" alt="breakdown van nog een dynamisch deel">
+  <img src="readme-images/dynamisch.deel.2.png" width="375px" alt="breakdown van nog een dynamisch deel">
 
 </details>
 
