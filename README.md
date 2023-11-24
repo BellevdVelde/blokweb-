@@ -61,7 +61,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen:
   
-  
+  - Het duurt erg lang om de hele pagina door te lezen, omdat de voice-over alles gaat benoemen.
+  - Niet alle afbeeldingen worden vertelt.
+  - De buttons waardoor je naar beneden door de pagina wordt geleidt, worden niet vermeldt. 
+  - Op de pagina staan niet altijd de buttons, waardoor je door de slider kan gaan met informatie. Als je dat op de screenreader hebt worden dus sommige stukken van de pagina overgeslagen.
 
 </details>
 
