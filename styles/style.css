@@ -1,22 +1,36 @@
 /**************/
 /* CSS REMEDY */
 /**************/
-*, *::after, *::before {
-  box-sizing:border-box;  
+*,
+*::after,
+*::before {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
 }
 
+@font-face {
+	font-family: 'tenon';
+	src: url('/fonts/fontspring-demo-tenon-regular-2-webfont.woff');
+}
 
+@font-face {
+	font-family: 'konga';
+	src: url('/fonts/kongapro-webfont.woff');
+}
 
-
-
+@font-face {
+	font-family: 'korolev';
+	src: url(/fonts/korolev_bold-webfont.woff);
+}
 
 /*********************/
 /* CUSTOM PROPERTIES */
 /*********************/
 :root {
 	/* startje */
-	--color-text:#111;
-	--color-background:#eee;
+	--color-text: #111;
+	--color-background: #eee;
 }
 
 
@@ -29,3 +43,361 @@
 
 /* jouw code */
 
+body {
+	font-weight: 400;
+	line-height: 20px;
+	font-family: 'Tenon', Arial Black, sans-serif;
+	background-color: #056365;
+	font-size: 16px;
+}
+
+header {
+	background-color: transparent;
+	background-image: linear-gradient(180deg, rgba(29, 29, 26, .8), rgba(29, 29, 26, .15) 50px, rgba(29, 29, 26, .05) 70px);
+	height: 96px;
+	width: 100%;
+	padding: 0 24px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	position: sticky;
+	top: 0;
+	z-index: 20;
+}
+
+header nav {
+	background-color: #056365;
+	background-image: linear-gradient(180deg, rgba(29, 29, 26, .8), rgba(29, 29, 26, .15) 50px, rgba(29, 29, 26, .05) 70px);
+
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	opacity: 0;
+	z-index: -1;
+	visibility: hidden;
+	transition: opacity 0.3s ease-in, visibility 0.3s ease-in;
+	padding-top: 96px;
+}
+
+header article {
+	display: flex;
+	flex-direction: column;
+}
+
+header details {
+	color: white;
+	background-color: #056365;
+	border: 2px solid #71cb9f;
+	border-radius: 25px;
+	padding: 1rem;
+	width: 20em;
+	margin: 16px auto;
+}
+
+.link {
+	text-decoration: none;
+	color: #056365;
+	background-color: #67d695;
+	width: 11.5em;
+	line-height: 24px;
+	border-radius: 30px;
+	margin: 8px auto;
+	border: none;
+	padding: 14px 1.5rem 1rem;
+	display: inline-block;
+}
+
+.link2 {
+	text-decoration: none;
+	color: white;
+	background-color: #056365;
+	width: 7.5em;
+	line-height: 24px;
+	border-radius: 30px;
+	margin: 8px auto;
+	border: none;
+	padding: 14px 1.5rem 1rem;
+	display: inline-block;
+}
+
+summary {
+	list-style: none;
+	cursor: pointer;
+	display: flex;
+	justify-content: space-between;
+}
+
+.pijl {
+	width: auto;
+	height: 10px;
+}
+
+header nav.toonMenu {
+	opacity: 1;
+	visibility: visible;
+}
+
+nav ul {
+	padding: 1em 24px;
+	margin-top: 1.5em;
+	margin-bottom: 5em;
+}
+
+nav ul li {
+	list-style: none;
+	margin-bottom: 1.5em;
+}
+
+nav ul li a {
+	color: white;
+	font-family: 'korolev', sans-serif;
+	text-decoration: none;
+	display: flex;
+	align-items: center;
+	column-gap: .25em;
+}
+
+header img {
+	width: 4rem;
+	height: auto;
+}
+
+.toggleButton {
+	background-color: transparent;
+	border: none;
+}
+
+.toggleButton img {
+	width: 2em;
+	height: auto;
+}
+
+section {
+	padding: 0px 30px;
+}
+
+section:nth-child(1) {
+	margin-bottom: 112px;
+}
+
+section:nth-child(2) {
+	margin-bottom: 4rem;
+}
+
+section:nth-child(3) {
+	background-color: #f9f3f0;
+}
+
+h1 {
+	color: white;
+	font-size: 32px;
+	line-height: 36px;
+	font-family: 'korolev', sans-serif;
+	text-align: center;
+	margin-bottom: 2em;
+}
+
+mark {
+	color: #fdf2a7;
+	background-color: transparent;
+	font-size: 36px;
+	font-family: 'konga', sans-serif;
+	letter-spacing: 2px;
+}
+
+h2 {
+	font-size: 28px;
+	font-family: 'korolev', sans-serif;
+	color: #f9f3f0;
+	text-align: center;
+	margin-bottom: 32px;
+	line-height: 36px;
+}
+
+h3 {
+	font-size: 20px;
+	text-align: center;
+	color: #f9f3f0;
+	margin-bottom: 4.5em;
+	line-height: 24px;
+}
+
+h4 {
+	color: #056365;
+	font-size: 16px;
+	font-family: 'korolev', sans-serif;
+	font-weight: bolder;
+	text-align: center;
+}
+
+p {
+	text-align: center;
+	color: #f9f3f0;
+}
+
+.scroll_down {
+	background-color: transparent;
+	border: none;
+	display: block;
+	margin: 48px auto;
+	animation-name: scrolldown;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+	z-index: -1;
+	position: relative;
+}
+
+@keyframes scrolldown {
+	0% {
+		transform: translateY(0);
+	}
+
+	30% {
+		transform: translateY(-30px);
+	}
+
+	50% {
+		transform: translateY(-20px);
+	}
+
+	80% {
+		transform: translateY(-30px);
+	}
+
+	100% {
+		transform: translateY(0);
+	}
+}
+
+
+/*https://www.youtube.com/watch?v=ORwt4fXVtdI*/
+.component {
+	display: flex;
+	align-items: center;
+}
+
+.carousel {
+	display: flex;
+	margin: 0 10px;
+	width: 330px;
+	overflow-x: hidden;
+	scroll-behavior: smooth;
+	scroll-snap-type: x mandatory;
+}
+
+section:nth-child(2) article {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+
+	margin: 0 20px;
+	width: 250px;
+	flex-shrink: 0;
+	scroll-snap-align: start;
+}
+
+section:nth-child(2) h2:nth-child(2) {
+	font-size: 32px;
+}
+
+section:nth-child(2) button {
+	background-color: transparent;
+	height: 2em;
+	width: 2em;
+	border: none;
+}
+
+section:nth-child(2) button img {
+	height: auto;
+	width: 2em;
+}
+
+section:nth-child(2) img {
+	width: 6.5rem;
+	height: auto;
+	margin-bottom: -10px;
+}
+
+section:nth-child(n+3):nth-child(-n+4) {
+	padding-top: 48px;
+}
+
+section:nth-child(3) h2,
+section:nth-child(3) p {
+	color: #056365;
+}
+
+section:nth-child(4) h4 {
+	color: white;
+}
+
+section:nth-child(n+3):nth-child(-n+4) img {
+	width: 3em;
+	height: auto;
+	margin-right: 1em;
+}
+
+section:nth-child(n+3):nth-child(-n+4) img:nth-child(4) {
+
+	width: 315px;
+	height: 315px;
+	object-fit: cover;
+}
+
+section:nth-child(n+3):nth-child(-n+4) ul {
+	list-style: none;
+	margin: 48px 0px;
+}
+
+section:nth-child(n+3):nth-child(-n+4) ul li {
+	display: flex;
+	align-items: center;
+	margin-bottom: 32px;
+}
+
+section:nth-child(n+3):nth-child(-n+4) article {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+section:nth-child(3) button {
+	z-index: 2;
+}
+
+section:last-child a:nth-child(2) {
+	text-decoration: none;
+	color: white;
+	width: 7.8em;
+	line-height: 24px;
+	border-radius: 30px;
+	border: 2px solid white;
+	margin: 8px auto;
+	padding: 14px 1.5rem 1rem;
+	display: inline-block;
+}
+
+footer {
+	background-color: #f9f3f0;
+	padding: 64px 16px;
+}
+
+footer ul {
+	margin-bottom: 16px;
+}
+
+footer ul li {
+	list-style: none;
+	padding: 10px;
+}
+
+footer ul li a {
+	color: #056365;
+	text-decoration: none;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+}

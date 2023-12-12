@@ -14,20 +14,36 @@
 
 <body>
 	<header>
-		<img src="./images/tgtg_logo.70534928.png" alt="logo">
+		<a href="index.html"><img src="./images/tgtg_logo.70534928.png" alt="logo"></a>
+		<button class="toggleButton"><img src="./images/hamburger.open.png" alt="menu_open"></button>
 		<nav>
 			<ul>
-				<li><a href="">Gebruiker</a></li>
-				<li><a href="">Bedrijf</a></li>
-				<li><a href="">Impactrapport</a></li>
-				<li><a href="">Initiatieven</a></li>
+				<li><a href="./gebruiker.html">GEBRUIKER</a></li>
+				<li><a href="">BEDRIJF</a></li>
+				<li><a href="">IMPACTRAPPORT</a></li>
+				<li><a href="">INITIATIEVEN</a></li>
 			</ul>
+
+			<article>
+				<details>
+					<summary>
+						<p>The Netherlands</p>
+						<img class="pijl" src="./images/drop-down.png" alt="drop_down arrow">
+					</summary>
+					<ul>
+						<li></li>
+					</ul>
+				</details>
+				<a class="link" href="">Meld je bedrijf aan</a>
+				<a class="link" href="">Download de app</a>
+			</article>
 		</nav>
 	</header>
 
 	<main>
+
 		<section>
-			<h1>Samen voedselverspilling tegengaan</h1>
+			<h1>SAMEN <mark>voedselverspilli <br> ng</mark> TEGENGAAN</h1>
 
 			<h3>Voedselverspilling is een probleem, wij bieden een oplossing. Met de Too Good To Go-app red je
 				onverkocht eten bij jouw favoriete plekken van een ongelukkig lot.</h3>
@@ -37,82 +53,127 @@
 				te zoeken en van verspilling te redden.
 			</p>
 
-			<button>
+			<button class="scroll_down">
 				<img src="./images/arrow-down.png" alt="pijl-beneden">
 			</button>
 		</section>
 
 		<section>
-			<h2>Meer dan 1/3 van eten wordt verspild</h2>
-			<button></button>
-			<article>
-				<img src="./images/HandSprout.slider.png" alt="plant in hand">
-				<h2>Milieu</h2>
-				<p>10% van de broeikasgasuitstoot komt door voedselverspilling (dat is meer dan de hele
-					luchtvaartindustrie).</p>
-			</article>
-			<article>
-				<img src="./images/SadSmiley.slider.png" alt="sadsmiley">
-				<h2>Sociaal</h2>
-				<p>We verspillen per jaar 2,5 miljard ton eten, terwijl 828 miljoen mensen elke dag honger lijden.</p>
-			</article>
-			<article>
-				<img src="./images/DollarBill.slider.png" alt="dollarbill">
-				<h2>Economisch</h2>
-				<p>Voedselverspilling kost elk jaar 1,2 miljard dollar.</p>
-			</article>
-			<button></button>
+			<h2>MEER DAN 1/3 VAN ETEN WORDT VERSPILD</h2>
+
+			
+			<div class="component">
+				<button onclick="goLeft()"><img src="./images/links-pijl.png" alt="pijl-links"></button>
+			
+				<div class="carousel">
+				  <article class="active">
+					<img src="./images/HandSprout.slider.png" alt="plant in hand">
+					<h2>MILIEU</h2>
+					<p>10% van de broeikasgasuitstoot komt door voedselverspilling (dat is meer dan de hele
+					  luchtvaartindustrie).</p>
+				  </article>
+				  <article>
+					<img src="./images/SadSmiley.slider.png" alt="sadsmiley">
+					<h2>SOCIAAL</h2>
+					<p>We verspillen per jaar 2,5 miljard ton eten, terwijl 828 miljoen mensen elke dag honger lijden.</p>
+				  </article>
+				  <article>
+					<img src="./images/DollarBill.slider.png" alt="dollarbill">
+					<h2>ECONOMISCH</h2>
+					<p>Voedselverspilling kost elk jaar 1,2 miljard dollar.</p>
+				  </article>
+				</div>
+			
+				<button onclick="goRight()"><img src="./images/pijl-rechts.png" alt="pijl rechts"></button>
+			  </div>
 		</section>
 
 		<section>
-			<h2>Goed doen smaakt lekker</h2>
+			<h2>GOED DOEN SMAAKT LEKKER</h2>
 			<p>Trek? Met de Too Good To Go-app eet je goed en maak je impact. Red Verrassingspakketten met goed eten
 				voor een nog betere prijs van restaurants en winkels bij jou in de buurt.</p>
+			<ul>
+				<li>
+					<img src="./images/HandsCelebrate.slider2.png" alt="hands">
+					<h4>RED LEKKER ETEN VAN LOKALE FAVORIETEN.</h4>
+				</li>
+				<li>
+					<img src="./images/TgtgShoppingBag.slider2.png" alt="tas">
+					<h4>GENIET VAN 1/3 VAN DE PRIJS.</h4>
+				</li>
+				<li>
+					<img src="./images/PlanetEarth.slider2.png" alt="">
+					<h4>HELP DE PLANEET, VOORKOM VERSPILLING.</h4>
+				</li>
+			</ul>
+			<img src="./images/tas_in_hand.jpeg" alt="tas in hand">
 			<article>
-				<img src="./images/HandsCelebrate.slider2.png" alt="hands">
-				<h4>Red lekker eten van lokale favorieten.
-				</h4>
-			</article>
-			<article>
-				<img src="./images/TgtgShoppingBag.slider2.png" alt="tas">
-				<h4>Geniet voor 1/3 van de prijs</h4>
-			</article>
-			<article>
-				<img src="./images/PlanetEarth.slider2.png" alt="">
-				<h4>Help de planeet, voorkom verspilling</h4>
-			</article>
-			<img src="./images/tasinhand.jpeg" alt="tas in hand">
-			<link rel="stylesheet" href="">
-			<link rel="stylesheet" href="">
-			<button>
+				<a class="link" href="">Download de app</a>
+				<a class="link2" href="/gebruiker.html">Lees meer</a>
+			</article>	
+			<button class="scroll_down">
 				<img src="./images/arrow-down.png" alt="pijl-beneden">
 			</button>
 		</section>
+
 		<section>
-			<h2>Zet je teveel aan eten om in waarde</h2>
+			<h2>ZET JE TEVEEL AAN ETEN OM IN WAARDE</h2>
 			<p>Onverkocht eten aan het einde van de dag? Wij helpen! Sluit je aan bij duizenden bedrijven die Too Good
 				To Go gebruiken en maak klanten blij met eten dat over is. Geef lekker eten een tweede kans.</p>
+			<ul>
+				<li>
+					<img src="./images/ContentSmiley.slider3.png" alt="smiley">
+					<h4>MET WEINIG MOEITE MAAK JE EXTRA OMZET VAN ETEN DAT OVER IS.</h4>
+				</li>
+				<li>
+					<img src="./images/PeaceSign.slider3.png" alt="peacesign">
+					<h4>VERHOOG JE ZICHTBAARHEID VOOR MEER NIEUWE KLANTEN, MET OF ZONDER APP.</h4>
+				</li>
+				<li>
+					<img src="./images/PlantGrowing.slider3.png" alt="plant">
+					<h4>VERMINDER VERSPILLING EN HELP HET MILIEU.</h4>
+				</li>
+			</ul>
+			<img src="./images/tas_geven.jpeg" alt="tasgeven">
 			<article>
-				<img src="./images/ContentSmiley.slider3.png" alt="smiley">
-				<h4>Met weinig moeite maak je extra omzet van eten dat over is.
-				</h4>
+				<a class="link" href="#">Meld je bedrijf aan</a>
+				<a href="#">Lees meer</a>
 			</article>
-			<article>
-				<img src="./images/PeaceSign.slider3.png" alt="peacesign">
-				<h4>Verhoog je zichtbaarheid voor meer nieuwe klanten, met of zonder app.</h4>
-			</article>
-			<article>
-				<img src="./images/PlantGrowing.slider3.png" alt="plant">
-				<h4>Verminder verspiling en help het milieu.</h4>
-			</article>
-			<img src="./images/Tasgeven.jpeg" alt="tasgeven">
-			<link rel="stylesheet" href="">
-			<link rel="stylesheet" href="">
 		</section>
 	</main>
 
 	<footer>
+		<ul>
+			<li><a href="">Blog</a></li>
+			<li><a href="">Careers</a></li>
+			<li><a href="">Pers</a></li>
+			<li><a href="">Support</a></li>
+			<li><a href="">MyStore</a></li>
+		</ul>
+		<ul>
+			<li><a href="">Privacy Policy</a></li>
+			<li><a href="">Cookie Policy</a></li>
+			<li><a href="">Terms & Conditions</a></li>
+			<li><a href="">Promotion and Referral Terms</a></li>
+			<li><a href="">Mediation & Complaint Report</a></li>
+		</ul>
+		<article>
+			<img src="./images/appstore.png" alt="App Store">
+			<img src="./images/googleplay.png" alt="Google Play">
+			<img src="./images/appgallery.png" alt="App Gallery">
+		</article>
 
+		<article>
+			<img src="" alt="">
+			<img src="" alt="">
+			<img src="" alt="">
+			<img src="" alt="">
+			<img src="" alt="">
+		</article>
+
+		<img src="" alt="">
+
+		<p>Copyright © 2023 Too Good To Go International. All Rights Reserved.</p>
 	</footer>
 
 	<script defer src="scripts/script.js"></script>
